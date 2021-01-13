@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|start"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/fon"
+        tools:layout_editor_absoluteX="-60dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+
+
+    <LinearLayout
+        android:id="@+id/gameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="100"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Button1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:insetTop="450dp"
+            android:layout_weight="50"
+            app:backgroundTint="#2D472BAA"
+            android:text="@string/odp3" />
+
+
+        <Button
+            android:id="@+id/Button2"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_weight="50"
+            android:insetTop="450dp"
+            android:insetLeft="5dp"
+            app:backgroundTint="#2D472BAA"
+            android:background="@drawable/style_black60_red"
+            android:text="@string/odp3_3" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/gameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="100"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Button3"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:insetTop="40dp"
+            android:layout_weight="50"
+            app:backgroundTint="#2D472BAA"
+            android:text="@string/odp3_2" />
+
+
+        <Button
+            android:id="@+id/Button4"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_weight="50"
+            android:insetTop="400dp"
+            android:insetLeft="5dp"
+            app:backgroundTint="#2D472BAA"
+            android:text="@string/odp3_1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_weight="50"
+        android:textSize="30dp"
+        android:text="@string/pytanie3" />
+    <Button
+        android:id="@+id/wyjscie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textAllCaps="false"
+        android:text="Wyjść"
+        app:backgroundTint="#2D472BAA"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fon" />
+
+
+
+    <ImageView
+        android:id="@+id/main_img_fairy"
+        android:layout_width="469dp"
+        android:layout_height="384dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/images_removebg_preview" />
+
+    <LinearLayout
+        android:id="@+id/startLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/style_btn_stroke_black95_press_while"
+            android:layout_weight="1"
+            android:text="@string/start"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="24dp"
+            android:textColor="@color/black95"
+            app:backgroundTint="#8531175E" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonZwuk"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:backgroundTint="@color/zer"
+         />
+    <ImageView
+        android:id="@+id/imagePlay"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="43dp"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/zw_removebg_preview" />
+
+
+
+
+
+</RelativeLayout>

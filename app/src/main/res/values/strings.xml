@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="start">Start</string>
+    <string name="back">Wstecz</string>
+    <string name="win">You Win!</string>
+    <string name="next">Finish</string>
+    <string name="level1"> Witaj! Nazywam się Avolorfi. Jestem strażnikiem gwiaździstego świata. Stała się straszna rzecz! Zła chimera uciekła z więzienia i ukradła promień światła. Z nim może zniszczyć ziemię. Potrzebuję twojej pomocy!</string>
+    <string name="level2">Najpierw muszę się upewnić, że sobie z tym poradzisz. Przygotowałam dla Ciebie kilka pytań</string>
+    <string name="pytanie1">Jak wygląda Chimera?</string>
+    <string name="odp">Głowa lwa, ciało kozy i ogon węża</string>
+    <string name="odp_1">Głowa Orła, ciało lwa</string>
+    <string name="odp_2">Głowa Kobiety, ciało ptaka</string>
+    <string name="odp_3">Głowa człowieka, ciało węża</string>
+    <string name="pytanie2">Jakie ma zdolności?</string>
+    <string name="odp2">Oddycha ogniem</string>
+    <string name="odp2_1">Zabija spojrzeniem</string>
+    <string name="odp2_2">Obracaje w wilka</string>
+    <string name="odp2_3">Czyta myśli</string>
+    <string name="pytanie3">Co zabije Chimerę?</string>
+    <string name="odp3">Głosny dźwięk</string>
+    <string name="odp3_1">Srebrne ostrze</string>
+    <string name="odp3_2">Rana w sercu</string>
+    <string name="odp3_3">Nic</string>
+    <string name="level3">Teraz muszę pokazać, jak wygląda chimera. Zbierz obrazek, klikając każdą część</string>
+    <string name="level4">To jest kryjówka Chimery. Musisz być tym, który znajdzie tutaj promień światła. Ale uważaj, nie wiadomo, jaką ma formę</string>
+</resources>
