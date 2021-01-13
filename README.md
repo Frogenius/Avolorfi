@@ -43,8 +43,6 @@ isPlaying = true;
 });
 
 
-![alt text](android/ZrQMhl4PitA.jpg)
-
 ``
 #### Funkcja przyciska start
 ``
@@ -74,6 +72,9 @@ finish();
 #### 3 - strona Level3
 #### 4 - strona Level4
 ![alt text](android/yaPo8LtUu0A.jpg)
+
+
+![alt text](android/ZrQMhl4PitA.jpg)
 #### Zawiera przycisk włączenia i wyłączenia muzyki. 
 ![alt text](android/94RbrPmN-Fc.jpg)
 ![alt text](android/sUhnx5KEDD8.jpg)
