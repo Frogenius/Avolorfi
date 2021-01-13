@@ -15,7 +15,15 @@
 #### Przycisk starta gry
 ![alt text](android/1.jpg)
 ![alt text](android/ZrQMhl4PitA.jpg)
-## 2 Level
+
+### Strona wybóra poziomu gry 
+#### Zawiera przycisk powrótu i przyciski do levela
+#### 1 - przenosi do strony Level1
+#### 2 - do Level2
+#### 3 - do Level3
+#### 4 - do Level4
+![alt text](android/yaPo8LtUu0A.jpg)
+#### Zawiera przycisk włączenia i wyłączenia muzyki. 
 ![alt text](android/94RbrPmN-Fc.jpg)
 ![alt text](android/sUhnx5KEDD8.jpg)
 ![alt text](android/YbvTHcZeu8U.jpg)
