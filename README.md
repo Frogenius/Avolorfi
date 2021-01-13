@@ -9,6 +9,17 @@
 * Contacts
 
 ![alt text](android/1.jpg)
+![alt text](android/ZrQMhl4PitA.jpg)
+## 2 Level
+![alt text](android/94RbrPmN-Fc.jpg)
+![alt text](android/sUhnx5KEDD8.jpg)
+![alt text](android/YbvTHcZeu8U.jpg)
+
+![alt text](android/FKOoykUlds4.jpg)
+![alt text](android/HFIlvu5m-aM.jpg)
+## 4 level
+![alt text](android/cow_yhicg20.jpg)
+![alt text](android/0y9ZL67RlU0.jpg)
 
 ## 1.1. Wstęp
 > Celem ćwiczenia jest zapoznanie studentów z podstawowymi elementami języka HTML.
