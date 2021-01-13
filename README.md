@@ -73,20 +73,39 @@ finish();
 #### 4 - strona Level4
 ![alt text](android/yaPo8LtUu0A.jpg)
 
-
+### Level
+####Żeby zacząć grać trzeba naczysnąć przycisk "Pomoc Alorfi"
 ![alt text](android/ZrQMhl4PitA.jpg)
-#### Zawiera przycisk włączenia i wyłączenia muzyki. 
+### Level2 Quiz
+#### Aby przejść do następnego pytania, należy nacisnąć poprawną odpowiedź
+#### Jeśli odpowiedź jest nieprawidłowa, wyświetla się  tekst
 ![alt text](android/94RbrPmN-Fc.jpg)
+#### Funkcja wyświetlania tekstu 
+
+```
+button1.setOnClickListener(new View.OnClickListener() {
+public void onClick(View v) {
+try {
+Toast.makeText(Level2_2.this, "Niepoprawna odpowiedż! Spróbuj ponownie", Toast.LENGTH_SHORT).show();
+
+} catch (Exception e) {
+
+}
+}
+
+});
+```
 ![alt text](android/sUhnx5KEDD8.jpg)
 ![alt text](android/YbvTHcZeu8U.jpg)
+### Level3 Puzzle
+#### Klikając na część obrazu, obraca się na 90°. Klikając na każdą część, możemy złożyć obraz
+#### Gdy wszystkie części będą są na swoich miejscach, tekst zostanie podświetlony, a przycisk „Dalej” stanie się dostępny (nie można wcześniej nacisnąć)
 
 ![alt text](android/FKOoykUlds4.jpg)
 ![alt text](android/HFIlvu5m-aM.jpg)
-## 4 level
-![alt text](android/cow_yhicg20.jpg)
-![alt text](android/0y9ZL67RlU0.jpg)
 
-``
+
+```
 ImageView him1 = (ImageView) findViewById(R.id.him1);
 him1.setOnClickListener(new View.OnClickListener() {
 public void onClick(View v) {
@@ -322,4 +341,7 @@ return false;
 
 }
 
-``
+```
+### level4
+![alt text](android/cow_yhicg20.jpg)
+![alt text](android/0y9ZL67RlU0.jpg)
