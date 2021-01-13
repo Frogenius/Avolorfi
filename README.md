@@ -21,7 +21,7 @@ w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParam
 ![alt text](android/1.jpg)
 
 #### Funkcja włączenia i wyłaczenia muzyki
-``
+```
 MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.faith);
 
 Button buttonZwuk = (Button) findViewById(R.id.buttonZwuk);
@@ -43,9 +43,9 @@ isPlaying = true;
 });
 
 
-``
+```
 #### Funkcja przyciska start
-``
+```
 Button buttonStart = (Button) findViewById(R.id.buttonStart);
 
 buttonStart.setOnClickListener(new View.OnClickListener() {
@@ -63,7 +63,7 @@ finish();
 
 });
 
-``
+```
 
 ### Strona wybóra poziomu gry 
 #### Zawiera przycisk powrótu i przyciski do levela
