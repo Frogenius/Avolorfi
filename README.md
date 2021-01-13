@@ -9,10 +9,10 @@
 * Wyszukiwane przedmtów
 
 #### Wszyscy strony zawiera funkcją rozciągania gry na caly ekran
-''
+``
 Window w = getWindow();
 w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-''
+``
 
 
 ### Strona startowa
