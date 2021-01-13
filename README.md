@@ -1,19 +1,26 @@
 # Avolorfi
 
-## Projekt zaliczeniowy - Programowanie aplikacji mobilnych
+## Projekt zaliczeniowy przedmiotu Programowanie aplikacji mobilnych - Gra Mobilna
+> Celem gry jest pomoc Avolorfi w odnalezieniu promienia światła, aby to zrobić, musimy wykonać zadania
 
-### Gra mobilna zawierajaca: 
+### Gra zawierajaca: 
 * Quizy
 * Puzzle
 * Wyszukiwane przedmtów
 
-> Celem gry jest pomoc Avolorfi w odnalezieniu promienia światła, aby to zrobić, musimy wykonać zadania
+#### Wszyscy strony zawiera funkcją rozciągania gry na caly ekran
+''
+Window w = getWindow();
+w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+''
+
 
 ### Strona startowa
-#### Zawiera przycisk włączenia i wyłączenia muzyki. 
+#### Zawiera przycisk włączenia i wyłączenia muzyki i Przycisk starta gry
 
-#### Przycisk starta gry
 ![alt text](android/1.jpg)
+
+
 ![alt text](android/ZrQMhl4PitA.jpg)
 
 ### Strona wybóra poziomu gry 
