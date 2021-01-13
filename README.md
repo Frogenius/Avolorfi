@@ -1,13 +1,18 @@
 # Avolorfi
 
-## Cwiczenie laboratoryjne nr 1 - Podstawy HTML
-### Strona wizytowka zawierajaca: 
-* Main Page
-* The OCT principles
-* The OCT measurements
-* Specification of laboratory OCT systems
-* Contacts
+## Projekt zaliczeniowy - Programowanie aplikacji mobilnych
 
+### Gra mobilna zawierajaca: 
+* Quizy
+* Puzzle
+* Wyszukiwane przedmtów
+
+> Celem gry jest pomoc Avolorfi w odnalezieniu promienia światła, aby to zrobić, musimy wykonać zadania
+
+### Strona startowa
+#### Zawiera przycisk włączenia i wyłączenia muzyki. 
+
+#### Przycisk starta gry
 ![alt text](android/1.jpg)
 ![alt text](android/ZrQMhl4PitA.jpg)
 ## 2 Level
@@ -22,9 +27,7 @@
 ![alt text](android/0y9ZL67RlU0.jpg)
 
 ## 1.1. Wstęp
-> Celem ćwiczenia jest zapoznanie studentów z podstawowymi elementami języka HTML.
-Zostaną omówione takie elementy jak struktura strony, formatowanie akapitów, wstawianie
-elementów graficznych, tworzenie list, formularzy oraz odnośników do innych dokumentów.
+
 >
 ### Przed przystąpieniem do ćwiczeń należy bezwzględne:
 * przeczytać materiał z wykładu,
