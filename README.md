@@ -73,8 +73,8 @@ finish();
 #### 4 - strona Level4
 ![alt text](android/yaPo8LtUu0A.jpg)
 
-### Level
-####Żeby zacząć grać trzeba naczysnąć przycisk "Pomoc Alorfi"
+### Level1
+#### Żeby zacząć grać trzeba naczysnąć przycisk "Pomoc Alorfi"
 ![alt text](android/ZrQMhl4PitA.jpg)
 ### Level2 Quiz
 #### Aby przejść do następnego pytania, należy nacisnąć poprawną odpowiedź
@@ -104,6 +104,7 @@ Toast.makeText(Level2_2.this, "Niepoprawna odpowiedż! Spróbuj ponownie", Toast
 ![alt text](android/FKOoykUlds4.jpg)
 ![alt text](android/HFIlvu5m-aM.jpg)
 
+### Funkcja obracania obrazków
 
 ```
 ImageView him1 = (ImageView) findViewById(R.id.him1);
@@ -343,5 +344,64 @@ return false;
 
 ```
 ### level4
+#### Aby ukończyć grę, tzeba znaleźć promień świata (pierścień)
+#### Klikając na ten obrazek otworzy się okno dialogowe
 ![alt text](android/cow_yhicg20.jpg)
 ![alt text](android/0y9ZL67RlU0.jpg)
+
+### Funkcja okna dialogowego 
+```
+ImageView koniec = (ImageView) findViewById(R.id.imageView10);
+dialog = new Dialog(this);
+koniec.setOnClickListener(new View.OnClickListener() {
+public void onClick(View v) {
+try {
+
+dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+dialog.setContentView(R.layout.dialog);
+dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+dialog.setCancelable(false);
+dialog.show();
+
+TextView btnclose = (TextView)dialog.findViewById(R.id.btnclose);
+btnclose.setOnClickListener(new View.OnClickListener() {
+@Override
+public void onClick(View v) {
+try {
+Intent intent = new Intent(Level4.this, Level4.class);
+startActivity(intent);
+finish();
+
+} catch (Exception e) {
+
+}
+dialog.dismiss();
+}
+});
+Button butncontinue = (Button)dialog.findViewById(R.id.btncontinue);
+
+butncontinue.setOnClickListener(new View.OnClickListener() {
+public void onClick(View v) {
+try {
+Intent intent = new Intent(Level4.this, MainActivity.class);
+startActivity(intent);
+finish();
+
+} catch (Exception e) {
+
+}
+dialog.dismiss();
+}
+
+});
+
+} catch (Exception e) {
+
+}
+}
+
+});
+
+```
+
+### Klikając "Dalej" gra otworzy pierwszy ekran
